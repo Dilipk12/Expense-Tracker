@@ -32,11 +32,11 @@ export const IncomeExpenses = () => {
   );
 
   return (
-    <div className="flex w-full md:w-auto">
+    <div className="flex w-full gap-4 md:w-auto">
       <div className='bg-green-500/50 text-white backdrop-blur-md p-5 rounded w-1/2 md:w-56 text-center'>
         <h4 className='text-lg sm:text-2xl'>Income</h4>
         <p className=" text-xl sm:text-3xl font-semibold">{moneyFormatter(income)}</p>
-      </div>1``
+      </div>
       <div className='bg-red-500/50 backdrop-blur-md text-white p-5 rounded w-1/2 md:w-56 text-center'>
         <h4 className='text-lg sm:text-2xl'>Expense</h4>
         <p className="text-xl sm:text-3xl font-semibold">{moneyFormatter(expense)}</p>
